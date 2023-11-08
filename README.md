@@ -1,7 +1,7 @@
 # basic-template-html-css
 just template css html
 
-suggest extension:
+## suggest extension:
 - live server
     ```
     Name: Live Server
@@ -11,3 +11,10 @@ suggest extension:
     Publisher: Ritwick Dey
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
     ```
+
+## runing
+- start tailwind
+```npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch```
+
+- right click editer code page in ./src/index.html > open with live server
+
